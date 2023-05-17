@@ -1,0 +1,90 @@
+#title_vn h1 {
+  width: 100%;
+  /* text-align: center; */
+  padding-left: 300px;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+/* center */
+#ass{
+  color: rgb(255, 255, 255);
+  background: #ff0404;
+  height: 35px;
+  font-size: 25px;
+  border: none;
+} 
+
+#aaa{
+  width: 100%;
+  font: 1em sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  float: left;
+  /* margin: 16px 0 16px 24px; */
+}
+
+.logo1 {
+  float: right;
+  position:fixed;
+top:50px;
+right:0px;
+  /* margin: 16px 0 16px 24px; */
+}
+
+
+.ant-pagination{
+  text-align: center;
+  height: 50px;
+}
+.ant-pagination li{
+  font-size: 30px;
+}
+.ant-pagination li span{
+  font-size: 30px;
+}
+
+.trstyle th{
+  font-size: 20px;
+}
+
+
+
+.ant-table-content{
+  background: rgb(0,102,153)!important;
+  /* background: rgb(0,0,51); */
+  color:aliceblue;
+  height: 690px;
+  
+}
+
+.ant-table-tbody > tr > td.ant-table-column-sort {
+  background: none;
+}
+
+
+.ant-table-tbody>tr:hover:not(.ant-table-expanded-row) > td,.ant-table-row-hover,.ant-table-row-hover>td{
+  background:none !important;
+  }
+
+  .ant-table-tbody tr{
+    height: 49px;
+    padding-top: 5px;
+  }
+  .ant-table-cell{
+    height: 45px;
+  }
+
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td{
+    height: 45px;
+  }
+
+  .ant-btn-primary {
+    color: #fff;
+    border-color: #1890ff;
+    background: #1890ff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    float: right;
+}

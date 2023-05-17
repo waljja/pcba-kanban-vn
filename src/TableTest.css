@@ -1,0 +1,74 @@
+.tableTestContent {
+    /* height: 950px; */
+    
+    height: calc(82vh);
+}
+/* .tableTestContent{
+    height: 1050px;
+    height: calc(100vh);
+} */
+
+
+.ant-table-content {
+    background: rgb(0, 0, 51);
+    color: aliceblue;
+    height: 100%;
+    font-size: 15px;
+}
+
+.ant-table-cell{
+    min-height: 20px;
+    height: 30px;
+    padding: 0,0;
+    font-size: 20px;
+}
+.ant-table-row{
+    min-height: 20px;
+    height: 30px;
+}
+
+.ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td,
+.ant-table-row-hover,
+.ant-table-row-hover>td {
+    background: none !important;
+}
+
+.ant-table-tbody>tr>td.ant-table-column-sort {
+    background: none;
+}
+
+.ant-layout-footer div{
+    /* height: 50px; */
+    font-size: 30px;
+  }
+ 
+  .ant-table-thead>tr>th{
+    font-size: 25px;
+}
+
+.tablestyle td{
+    border-bottom:#fcfafa solid 1px;
+}
+
+.ant-table-tbody >tr >td{
+    padding: 0px 0px 0px 0px !important;
+    text-align:center !important;
+    height:0px !important;
+}
+ 
+.ant-table-tbody >tr{
+    padding: 0px 0px 0px 0px !important;
+    text-align:center !important;
+    height:0px !important;
+}
+.ant-table-thead >tr{
+    padding: 0px 0px 0px 0px !important;
+    text-align:center !important;
+    height:0px !important;
+}
+.ant-table-thead >tr >th{
+    padding: 0px 0px 0px 0px !important;
+    text-align:center !important;
+    height:0px !important;
+}
+ 
